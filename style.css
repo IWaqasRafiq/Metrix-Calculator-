@@ -53,6 +53,6 @@ h4, h3{
 }
 .buttons{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 30px !important;
 }

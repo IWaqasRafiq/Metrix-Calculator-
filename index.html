@@ -34,46 +34,47 @@
         </div>
       </nav>
     <div class="container">
-
-        <h2>Matrix Calculator 2x2</h2>
-        <h4>Value 01</h4>
-        <div class="input-group">
-            <input type="number" aria-label="First name" class="form-control">
-            <input type="number" aria-label="Last name" class="form-control">
-        </div>
-        <br>
-        <div class="input-group">
-            <input type="number" aria-label="First name" class="form-control">
-            <input type="number" aria-label="Last name" class="form-control">
-        </div>
-        <br>
-        <h4>Value 02</h4>
-        <div class="input-group">
-            <input type="number" aria-label="First name" class="form-control">
-            <input type="number" aria-label="Last name" class="form-control">
-        </div>
-        <br>
-        <div class="input-group">
-            <input type="number" aria-label="First name" class="form-control">
-            <input type="number" aria-label="Last name" class="form-control">
-        </div>
-        <br>
-        <div class="buttons">
-            <button class="btn btn-primary" type="submit">Addition</button>
-            <button class="btn btn-primary" type="submit">Subtract</button>
-            <button class="btn btn-primary" type="submit">Multiply</button>
-        </div>
-        <!-- <br> -->
-        <h3>Result</h3>
-        <div class="input-group">
-            <input type="number" aria-label="First name" class="form-control">
-            <input type="number" aria-label="Last name" class="form-control">
-        </div>
-        <br>
-        <div class="input-group">
-            <input type="number" aria-label="First name" class="form-control">
-            <input type="number" aria-label="Last name" class="form-control">
-        </div>
+        <form onsubmit="calculateMetrix(); return false">
+            <h2>Matrix Calculator 2x2</h2>
+            <h4>Value 01</h4>
+            <div class="input-group">
+                <input type="number"  id="val1_1" class="form-control">
+                <input type="number" id="val1_2" class="form-control">
+            </div>
+            <br>
+            <div class="input-group">
+                <input type="number"  id="val1_3" class="form-control">
+                <input type="number" id="val1_4" class="form-control">
+            </div>
+            <br>
+            <h4>Value 02</h4>
+            <div class="input-group">
+                <input type="number" id="val2_1" class="form-control">
+                <input type="number" id="val2_2" class="form-control">
+            </div>
+            <br>
+            <div class="input-group">
+                <input type="number" id="val2_3" class="form-control">
+                <input type="number" id="val2_4" class="form-control">
+            </div>
+            <br>
+            <div class="buttons">
+                <button class="btn btn-primary add"  onclick="calculateMetrix()" type="submit">Addition</button>
+                <!-- <button class="btn btn-primary" id="sub" onclick="sub(event)" type="submit">Subtract</button>
+                    <button class="btn btn-primary" id="mul" onclick="mul(event)" type="submit">Multiply</button> -->
+                </div>
+            </form>
+            <!-- <br> -->
+            <h3>Result</h3>
+            <div class="input-group">
+                <input type="number" id="res1" class="form-control">
+                <input type="number" id="res2" class="form-control">
+            </div>
+            <br>
+            <div class="input-group">
+                <input type="number" id="res3" class="form-control">
+                <input type="number" id="res4" class="form-control">
+            </div>
 
 
 
