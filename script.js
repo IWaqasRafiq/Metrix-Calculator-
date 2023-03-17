@@ -1,5 +1,5 @@
 
-function calculateMetrix(operation) {
+function calculateMetrix() {
 
     let val1_1 = parseInt(document.getElementById("val1_1").value);
     let val1_2 = parseInt(document.getElementById("val1_2").value);
@@ -21,8 +21,8 @@ function calculateMetrix(operation) {
     res3 = FirstValues[2] + SecondValues[2]
     res4 = FirstValues[3] + SecondValues[3]
 
-    document.querySelector("#res2").innerHTML = res2
-    document.querySelector("#res1").innerHTML = res1
-    document.querySelector("#res3").innerHTML = res3
-    document.querySelector("#res4").innerHTML = res4
+    document.querySelector("#res2").value = res2
+    document.querySelector("#res1").value = res1
+    document.querySelector("#res3").value = res3
+    document.querySelector("#res4").value = res4
 }
