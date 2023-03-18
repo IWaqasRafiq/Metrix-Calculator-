@@ -90,9 +90,9 @@ function addClicked() {
     document.querySelector("#res2").value = res2;
     document.querySelector("#res3").value = res3;
     document.querySelector("#res4").value = res4;
-    document.querySelector("#res4").value = res5;
-    document.querySelector("#res4").value = res6;
-    document.querySelector("#res4").value = res7;
-    document.querySelector("#res4").value = res8;
+    document.querySelector("#res5").value = res5;
+    document.querySelector("#res6").value = res6;
+    document.querySelector("#res7").value = res7;
+    document.querySelector("#res8").value = res8;
   }
   
