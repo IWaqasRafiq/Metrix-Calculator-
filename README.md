@@ -1,2 +1,2 @@
 # Metrix-Calculator-
-Array & For Loop Leasrnig
+Array & For Loop Learnig
