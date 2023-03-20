@@ -1,0 +1,58 @@
+/* table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+} */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: medium;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #787878;
+    border-radius: 10px;
+}
+h4, h3{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px !important;
+}
