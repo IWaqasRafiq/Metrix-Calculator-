@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="calculateMatrix(); return false">
+        <h2>Matrix Calculator 2x2</h2>
+        <h4>Value 01</h4>
+        <div class="input-group">
+            <input type="number" id="val1_1" aria-label="First name" class="form-control">
+            <input type="number" id="val1_2" aria-label="Last name" class="form-control">
+        </div>
+        <br>
+        <div class="input-group">
+            <input type="number" id="val2_1" aria-label="First name" class="form-control">
+            <input type="number" id="val2_2" aria-label="Last name" class="form-control">
+        </div>
+        <br>
+        <div class="buttons">
+            <button class="btn btn-primary" type="submit" id="add">Addition</button>
+            <button class="btn btn-primary" type="submit" id="sub">Subtract</button>
+            <button class="btn btn-primary" type="submit" id="mul">Multiply</button>
+        </div>
+    </form>
+    
+    <h3>Result</h3>
+    <div class="input-group">
+        <input type="number" id="res1_1" aria-label="First name" class="form-control">
+        <input type="number" id="res1_2" aria-label="Last name" class="form-control">
+    </div>
+    <br>
+    <div class="input-group">
+        <input type="number" id="res2_1" aria-label="First name" class="form-control">
+        <input type="number" id="res2_2" aria-label="Last name" class="form-control">
+    </div>
+ <script src="./script.js"></script>    
+</body>
+</html>
