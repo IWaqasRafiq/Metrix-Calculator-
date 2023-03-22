@@ -34,10 +34,14 @@ function mulClicked() {
 
   let res1, res2, res3, res4;
 
-  res1 = FirstValues[0] * SecondValues[0];
-  res2 = FirstValues[1] * SecondValues[1];
-  res3 = FirstValues[2] * SecondValues[2];
-  res4 = FirstValues[3] * SecondValues[3];
+//  res1 = FirstValues[0] * SecondValues[0];
+//  res2 = FirstValues[1] * SecondValues[1];
+//  res3 = FirstValues[2] * SecondValues[2];
+//  res4 = FirstValues[3] * SecondValues[3];
+  res1 = FirstValues[0]*SecondValues[0] + FirstValues[4]*SecondValues[4];
+  res2 = FirstValues[1]*SecondValues[1] + FirstValues[5]*SecondValues[5];
+  res3 = FirstValues[2]*SecondValues[2] + FirstValues[6]*SecondValues[6];
+  res4 = FirstValues[3]*SecondValues[3] + FirstValues[7]*SecondValues[7];
   // add code for multiplication
 
   document.querySelector("#res1").value = res1;
